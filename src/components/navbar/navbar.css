@@ -1,0 +1,121 @@
+.navbar {
+    width: 100%;
+    top: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    position: fixed;
+    z-index: 1001;
+    transition: all .3s ease-in-out;
+    -webkit-backface-visibilite: hidden;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    padding-top: 0.3125rem;
+    padding-right: 8rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.85rem;
+    line-height: inherit;
+    white-space: nowrap;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.navbar_fixed .navbar {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 35px 0 rgba(0,0,0,.1);
+    top: 0;
+}
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.navbar-expand-lg>.container1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.hamburger {
+    position: absolute;
+    right: 0.5rem;
+    display: none;
+    width: 100%;
+}
+.navbar .logo_h {
+    margin-right: 0;
+    font-family: 'Varela Round';
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,.9);
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.85rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-brand span{
+    color: #0db3c7;
+}
+.navbar-brand a:visited{
+    text-decoration: none;
+}
+.nav-link{
+    color:black;
+    padding: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-family: 'Varela Round';
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.navbar-nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: -100px;
+    list-style: none;
+}
+.dd{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    padding-left: 17px;
+}
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #11d2e7ea;
+    border-radius: 5px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    color: #0ddff7;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) { 
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .nav{
+        display: none !important;
+    }
+}

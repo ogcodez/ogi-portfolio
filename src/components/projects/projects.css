@@ -1,0 +1,42 @@
+h1, h3{
+    font-family: 'Varela Round';
+}
+.portfolio{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stitle{
+    font-size: 22px;
+    color: #0db3c7;
+    margin-top: -80px;
+}
+.mtitle{
+    font-size: 26px;
+    font-family: 'Varela Round';
+    color: black;
+    padding-top: 20px;
+}
+.mtitle:hover{
+    color: #0db3c7;
+    cursor: pointer;
+}
+.ltitle{
+    font-size: 40px;
+    color: black;
+}
+.project-hub{
+    display: flex;
+}
+.single-project{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.img{
+    width: auto;
+    height: 400px;
+    border-radius: 10px;
+}
