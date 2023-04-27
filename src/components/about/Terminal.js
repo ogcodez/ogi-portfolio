@@ -24,7 +24,7 @@ function Terminal(props) {
         borderRadius={'0.5rem 0.5rem 0 0'}
         fontSize={'1rem'}
       >
-        <BsCircleFill size="14" style={{}} color="#ff6057" />
+        <BsCircleFill size="14" color="#ff6057" />
         <BsCircleFill size="14" color="#ffbd2e" />
         <BsCircleFill size="14" color="#27c93f" />
       </Box>

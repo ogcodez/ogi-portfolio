@@ -16,7 +16,7 @@ export default function Projects() {
                     </div>
                     <div className="single-project">
                         <img className="img" src='images/11.png' alt="" />
-                        <a className="mtitle" href=''>Meme Generator</a>
+                        <a className="mtitle" href='https://github.com/ogcodez/MemeGenerator'>Meme Generator</a>
                     </div>
                 </div>
         </div>

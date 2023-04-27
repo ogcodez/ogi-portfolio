@@ -12,10 +12,11 @@ export default function Nav() {
                     <h2 className="navbar-brand logo_h">
                         og<span>codez</span>
                     </h2>
-                    <div className='nav'>   
+                    <div className='nav'>
                         <a className="nav-link" href="#header">Home</a>
                         <a className="nav-link" href="#skills">Skills</a>
                         <a className="nav-link" href="#projects">Projects</a>
+                        <a className="nav-link" href="#contact">Contact</a>
                     </div>
                     <div className="hamburger">
                         <Hamburger color="#0db3c7" toggled={isOpen} toggle={setOpen} rounded />
@@ -29,6 +30,9 @@ export default function Nav() {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>}

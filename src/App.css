@@ -1,3 +1,9 @@
 html {
     scroll-behavior: smooth;
   }
+.app{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
