@@ -1,11 +1,24 @@
 .skills {
   columns: 1;
+  margin-left: -40px;
   @media only screen and (min-width: 940px) {
     columns: 2;
+    margin-left: 0;
   }
 
   li {
     margin: 0;
     line-height: 1.75;
+  }
+}
+@media only screen and (max-width: 400px) {
+  p{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  p{
+    font-size: 1.1rem;
   }
 }

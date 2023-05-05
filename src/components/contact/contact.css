@@ -124,5 +124,19 @@
         width: 215px;
     }
 }
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 1.1em;
+    }
+    h4{
+        font-size: 16px;
+    }
+    .single-contact a{
+        font-size: 1.1em;
+    }
+    .ltitle{
+        font-size: 1.1em;
+    }
+}
 
 

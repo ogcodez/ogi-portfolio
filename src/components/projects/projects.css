@@ -1,5 +1,9 @@
 h1, h3{
     font-family: 'Varela Round';
+    text-align: center;
+}
+a{
+    text-align: center;
 }
 .portfolio{
     height: 800px;
@@ -72,5 +76,14 @@ h1, h3{
 @media screen and (max-width: 576px) {
     .img{
         height: 250px;
+    }
+    .stitle{
+        font-size: 16px;
+    }
+    .mtitle{
+        font-size: 18px;
+    }
+    .ltitle{
+        font-size: 20px;
     }
 }
