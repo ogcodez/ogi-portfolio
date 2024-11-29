@@ -1,5 +1,7 @@
 # Ogi's Portfolio!
 
+https://ogcodez-portfolio.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
